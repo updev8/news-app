@@ -1,0 +1,12 @@
+.add-news {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-news__field {
+  min-width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+  min-height: 2em;
+  padding: 0.5em 1em;
+}

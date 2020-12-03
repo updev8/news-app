@@ -1,0 +1,26 @@
+@import 'src/styles/helpers/reset-list';
+
+.menu {
+}
+
+.menu__list {
+  @include reset-list;
+  display: flex;
+}
+
+.menu__item {
+  margin-left: 40px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+.menu__link {
+  color: var(--text-primary);
+  text-decoration: none;
+
+  &.active {
+    font-weight: var(--fw-medium);
+  }
+}

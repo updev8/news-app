@@ -1,0 +1,10 @@
+@import 'src/styles/helpers/reset-list';
+@import 'src/styles/helpers/reset-button';
+
+.user-nav__list {
+  @include reset-list;
+}
+
+.user-nav__button {
+  @include reset-button;
+}

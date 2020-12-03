@@ -1,0 +1,14 @@
+.login-form {
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form__input {
+  margin-bottom: 15px;
+}

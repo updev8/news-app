@@ -1,0 +1,23 @@
+// xs, extra-small
+// sm, small
+// md, medium
+// lg, large
+// xl, extra-large
+
+@mixin laptop() {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
